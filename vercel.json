@@ -1,0 +1,8 @@
+{
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm run build",
+  "framework": "nextjs",
+  "env": {
+    "SKIP_DB_CHECK": "0"
+  }
+}
